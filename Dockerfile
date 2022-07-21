@@ -15,9 +15,9 @@ RUN apt-get update
 # Install basic applications
 
 # Install Python and Basic Python Tools
-RUN apt-get install -y python python-dev python-distribute curl
+RUN apt-get install -y python2 python2-dev python-distribute curl
 RUN curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
-RUN python ./get-pip.py
+RUN python2 ./get-pip.py
 
 ADD /hello_world/ /hello_world
 
