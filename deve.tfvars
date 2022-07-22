@@ -14,7 +14,7 @@ memory               = "4096"
 health_check_path    = "/"
 
 
-route53_zone_name = "sandbox-testing-private.com"
+route53_zone_name = "deve-devops-sandbox.com"
 
 route53_private_zone = true
 
