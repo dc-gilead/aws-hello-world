@@ -1,3 +1,4 @@
 behave
 behave-html-formatter
 nose
+pytest
