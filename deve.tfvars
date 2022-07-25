@@ -1,7 +1,6 @@
 vpc_name             = "deve"
 region               = "us-west-2"
 environment          = "deve"
-image_url            = "bcarpio/python-hello-world"
 instance_network_tag = "Private"
 alb_network_tag      = "Public"
 alb_internal         = false
