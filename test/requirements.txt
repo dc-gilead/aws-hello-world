@@ -2,3 +2,6 @@ behave
 behave-html-formatter
 nose
 pytest
+flask
+cherrypy
+requests
