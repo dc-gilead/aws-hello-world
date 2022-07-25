@@ -1,7 +1,6 @@
 vpc_name             = "test"
 region               = "us-west-2"
 environment          = "test"
-image_url            = "bcarpio/python-hello-world"
 instance_network_tag = "Private"
 alb_network_tag      = "Public"
 alb_internal         = false
