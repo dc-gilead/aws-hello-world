@@ -2,6 +2,7 @@ from behave import *
 
 @given('we have behave installed')
 def step_impl(context):
+    print(context)
     pass
 
 @when('we implement a test')
