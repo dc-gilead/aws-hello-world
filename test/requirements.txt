@@ -5,3 +5,4 @@ pytest
 flask
 cherrypy
 requests
+tox
