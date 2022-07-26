@@ -1,2 +1,4 @@
 *.pyc
 *.text
+.coverage
+coverage.xml
