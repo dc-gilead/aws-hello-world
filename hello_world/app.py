@@ -7,7 +7,8 @@ app = Flask(__name__)
 def hello():
     who =  os.environ.get('WHO')
     what = os.environ.get('WHAT')
-    hello = {'Who' : who, 'What': what}
+    when = os.environ.get('WHEN')
+    hello = {'Who' : who, 'What': what, 'When': when}
     dict = {'text': hello}
     return jsonify(dict)
 
