@@ -157,7 +157,7 @@ Should return
 * Run behavior/functional tests against running container
 
 ```
-SERVER_HOST=http://localhost:8080
+export SERVER_HOST=http://localhost:8080
 tox -e behave
 ```
 
