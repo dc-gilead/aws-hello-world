@@ -45,6 +45,8 @@ brew install yarn
 ```
 brew install python@3.9
 python3 -m pip install --upgrade pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
 pip install virtualenv
 pip install pylint
 ```
