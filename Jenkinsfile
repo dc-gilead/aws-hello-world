@@ -5,5 +5,8 @@ PipelineECS(appName: 'hello-world',
         snycTargetFile: 'hello_world/requirements.txt',
         snykAdditionalArguments: '--command=python3',
         functionalTestCommand: 'sleep 300 && tox -e behave',
+        fortifyAppId: '149890',        
+        fortifyReleaseName: 'Dev',
+        manifestLocation: 'hello_world/requirements.txt',
         thisWillDestroyEverything: 'false'
 )
