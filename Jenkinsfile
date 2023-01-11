@@ -7,7 +7,7 @@ PipelineECS(appName: 'hello-world',
         functionalTestCommand: 'sleep 300 && tox -e behave',
         fortifyAppId: '149890',        
         fortifyReleaseName: 'Dev',
-        pollFortifyResult: true,
+        pollFortifyResult: false,
         manifestLocation: 'hello_world/requirements.txt',
         thisWillDestroyEverything: 'false'
 )
