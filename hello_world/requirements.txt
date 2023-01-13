@@ -1,3 +1,5 @@
+flask
+setuptools >= 65.5.1
+cherrypy
 requests
-pytest
 tox
